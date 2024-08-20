@@ -3,3 +3,4 @@
 /.cache
 /.parcel-cache
 /package-lock.json
+/wget-log*

@@ -40,6 +40,7 @@ npm install --save-dev eslint-plugin-react
 npm install --save-dev parcel-bundler
 ```
 
+
 ### 编译运行
 指定编译内容的首页, 运行后会生成 dist 目录,该目录就是编译后可发布生产的文件,可以访问 http://localhost:1234
 ```shell

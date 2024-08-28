@@ -3,20 +3,6 @@
 参考: https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Introducing_complete_toolchain
 
 ## 构建运行
-### 准备
-安装 nvm, 并通过 nvm 安装 nodejs 和 npm (直接安装 nodejs 和 npm 可能出现诸多难以处理的错误)
-```shell
-# 安装 nvm, 参考:  https://github.com/nvm-sh/nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-
-# 查看 nvm 使用帮助
-nvm --help
-# 安装最新版本的 node 和 npm
-nvm install node 
-
-# 安装指定版本 node 及对应的 npm
-#  nvm install 8.0.0
-```
 
 ### 安装格式化代码工具
 prettier 通过配置文件 .prettierrc.json 格式化代码

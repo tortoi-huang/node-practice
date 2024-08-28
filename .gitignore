@@ -1,6 +1,6 @@
-/front/node_modules
-/front/dist
-/front/.cache
-/front/.parcel-cache
-/front/package-lock.json
+/*/node_modules
+/*/dist
+/*/.cache
+/*/.parcel-cache
+/*/package-lock.json
 /wget-log*

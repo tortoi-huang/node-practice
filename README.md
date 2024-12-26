@@ -12,10 +12,17 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 # 查看 nvm 使用帮助
 nvm --help
 # 安装最新版本的 node 和 npm
-nvm install node 
+nvm install node
 
 # 安装指定版本 node 及对应的 npm
 #  nvm install 8.0.0
+
+# 查看安装好的版本
+nvm list
+# 查看可以安装的所有版本
+# nvm list available
+# 使用指定版本, 已知windows下nvm install 并不会自动激活, 需要使用 use命令激活
+# nvm use 23.5.0
 ```
 如果操作系统设置了代理上网，则可能nvm安装失败, 需要单独设置nvm的代理
 ```bash

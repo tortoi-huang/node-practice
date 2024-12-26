@@ -17,6 +17,12 @@ nvm install node
 # 安装指定版本 node 及对应的 npm
 #  nvm install 8.0.0
 ```
+如果操作系统设置了代理上网，则可能nvm安装失败, 需要单独设置nvm的代理
+```bash
+nvm proxy 10.168.60.42:8080
+# 清除代理
+# nvm proxy none
+```
 
 
 ## 问题 express 后端没有 react 视图引擎, 他们没法一起配合工作, 只能是 react 通过 http 请求访问 express 的 api
